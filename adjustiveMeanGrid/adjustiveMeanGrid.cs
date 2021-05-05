@@ -295,7 +295,7 @@ namespace cAlgo.Robots
                 {
                     openTrade(direction, volume);
                 }
-                else if (biggestLoser.Pips >= radius)
+                else if (biggestLoser.Pips >= takeProfit)
                 {
                     closeProfitable();
                 }
